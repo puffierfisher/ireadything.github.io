@@ -1,0 +1,75 @@
+<html><head>
+
+    <title>i-Ready Destroyer</title>
+    <link href="libs/bootstrap.css" rel="stylesheet">
+    <style>
+      body {
+        height: 250px;
+        width: 250px;
+      }
+      div.alert-boy#boy  {
+        width:250px !important;
+        border-radius: 0 !important;
+        z-index: -1 !important;
+      }
+      button.very-light.btn {
+        opacity: 0.925 !important;
+        outline: none !important;
+      }
+     
+    </style>
+  </head>
+ 
+  <body>
+    <div class="border-danger border-5 border">
+    <div class="container">
+    <h1 class="text-center">Click to skip <br>i-Ready lesson</h1>
+    <div class="border-danger border-3 rounded-3">
+      <div class="d-flex justify-content-center">
+    <button id="selfDestroy" class="btn btn-danger btn-sm w-100 rounded-0 very-light">Self Destruct!</button>
+    <button id="destroy" class="btn btn-large btn-danger mr-5 btn-sm w-100 rounded-0 very-light">Skip!</button>
+    <button id="time" class="btn btn-large btn-danger mr-5 btn-sm w-100 rounded-0 very-light">Add Time!</button>
+    <button class="btn btn-large btn-danger mr-5 btn-sm w-100 rounded-0 very-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="true" aria-controls="collapseExample2">Free i-Ready games</button>
+   </div>
+   <div class="d-flex">
+   </div>
+    <div class="collapse show" id="collapseExample2" style="">
+      <div class="card card-body">
+        <a href="https://cdn.i-ready.com/instruction/game-begooped/1.3.x/2/" class="text-decoration-none" target="_blank">Begooped!</a>
+        <a href="https://cdn.i-ready.com/instruction/game-catstacker/1.6.x/2/" class="text-decoration-none" target="_blank">Cat Stacker</a>
+        <a href="https://cdn.i-ready.com/instruction/game-hpr/1.4.x/2/" class="text-decoration-none" target="_blank">Path Spinners</a>
+        <a href="https://cdn.i-ready.com/instruction/reward-games/v1.3.x/2/game-lanerunner/" class="text-decoration-none" target="_blank">Galaxy Sprint</a>
+        <a href="https://cdn.i-ready.com/instruction/reward-games/v1.3.x/2/game-bubbles/" class="text-decoration-none" target="_blank">Wizard Pinball</a>
+        <a href="https://cdn.i-ready.com/instruction/reward-games/v1.3.x/2/game-minedigger/" class="text-decoration-none" target="_blank">Dig Site</a>
+      </div>
+    </div>
+    <button id="end" class="btn btn-large btn-danger btn-sm rounded-0 very-light mt-2 text-center">End Time!</button>
+    </div>
+    <br>
+    <div class="text-center">
+    <label for="score">Lesson Score: <span id="lessonScore">100</span></label>
+    <input type="range" id="score" class="mt-2" value="100">
+    </div>
+    </div>
+    <p>
+      <a data-bs-toggle="collapse" class="text-decoration-none m-2" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+        + Credits
+      </a>
+    </p>
+    <div class="collapse" id="collapseExample">
+      <div class="card card-body">
+        i-Ready © Curriculum Associates. <br> Big thanks to midget_fucker69 for his lesson skipper and time adder.
+      </div>
+    </div>
+    <!-- <p class="text-center m-2">i-Ready &copy; Curriculum Associates. <br> Big thanks to anti i-Ready group</p> -->
+    <div class="alert-boy alert alert-danger w-100 rounded-0 m-0" id="boy">
+      <h1 class="h4">Latest News:</h1>
+      <p id="news">This was made by Gabriel. DO THIS TOMMOROW AFTER SCHOOL .Copy and paste this link into your browser: https://github.com/puffierfisher/puffierfisher.github.io/raw/master/iready-extension.crx , now copy and paste this link too: chrome://extensions . now drag and drop the file downloaded to the window opened. This should be green if you did it correctly ----&gt; <span style="color:green">This should be green</span>. If not, contact the creator. DO IT YOURSELF FIRST.</p>
+    </div>
+    </div>
+    <script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script><script type="text/javascript" src="popup.js"></script>
+    <script src="libs/bootstrap.bundle.js"></script>
+ 
+ 
+ 
+</body></html>
